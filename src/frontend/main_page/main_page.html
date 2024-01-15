@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main_page.css">
+    <script type="module" src="main_page.js"></script>
+    <title>Main Page</title>
+</head>
+<body>
+    <h2 class="accounts-title">ACCOUNTS</h2>
+
+    <div class="accounts-container">
+
+        <div class="accounts-list-container">
+            <ul class="accounts-list">
+                <li>
+                    <button class="add-account">
+                        <div>+</div>
+                    </button>
+                </li>
+                <!-- accounts will be added here -->
+            </ul>
+        </div>
+    </div>
+
+    <div class="selected-account-info-container">
+        <h1 class="selected-account-title">Account title</h1>
+
+        <div class="selected-account-info">
+            <div class="selected-account-username-container">
+                <label for="selected-account-username">Username</label>
+                <input type="text" value="Actual Username" name="selected-account-username" id="selected-account-username" placeholder="Username">
+            </div>
+
+            <div class="selected-account-password-container">
+                <label for="selected-account-password">Password</label>
+                <input type="text" value="Actual Password" name="selected-account-password" id="selected-account-password" placeholder="Password">
+            </div>
+    </div>
+</body>
+</html>
