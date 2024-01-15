@@ -24,7 +24,6 @@ window.onload = function()
     {
         let buttons = document.getElementsByClassName("account");
 
-        console.log(buttons.length);
         for (let i = 0; i < buttons.length; i++)
         {
             buttons[i].onclick = function()
