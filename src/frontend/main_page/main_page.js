@@ -68,9 +68,11 @@ window.onload = function()
 
         add_button.onclick = function()
         {
-            let account_name = "Facebook"
-            let account_username = "facebook_id"
-            let account_password = "facebook_pwd"
+            // choose account name, username and password in a popup form
+
+            let account_name = prompt("Please enter the account name :");
+            let account_username = prompt("Please enter the account username :");
+            let account_password = prompt("Please enter the account password :");
 
             if (account_name != "" && account_username != "" && account_password != "")
             {
